@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  GeoLocale
 //
-//  Created by Sabrina Johnson on 8/2/16.
+//  Created by Tajh McDonald on 8/2/16.
 //  Copyright © 2016 TMCD. All rights reserved.
 //
 

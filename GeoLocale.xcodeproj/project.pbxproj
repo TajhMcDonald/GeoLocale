@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6036EE8C1D5F54CF00E127E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6036EE8E1D5F54CF00E127E0 /* Main.storyboard */; };
+		60E248D31D53C49E0083E8E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E248D01D53C49E0083E8E8 /* ViewController.swift */; };
+		60E248D51D53C49E0083E8E8 /* LocationSearchTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E248D21D53C49E0083E8E8 /* LocationSearchTable.swift */; };
 		85C2096B1D5143FC0012B53C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C2096A1D5143FC0012B53C /* AppDelegate.swift */; };
-		85C2096D1D5143FC0012B53C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C2096C1D5143FC0012B53C /* ViewController.swift */; };
-		85C209701D5143FC0012B53C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85C2096E1D5143FC0012B53C /* Main.storyboard */; };
 		85C209721D5143FC0012B53C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85C209711D5143FC0012B53C /* Assets.xcassets */; };
 		85C209751D5143FC0012B53C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85C209731D5143FC0012B53C /* LaunchScreen.storyboard */; };
 		85C209801D5143FC0012B53C /* GeoLocaleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C2097F1D5143FC0012B53C /* GeoLocaleTests.swift */; };
 		85C2098B1D5143FC0012B53C /* GeoLocaleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C2098A1D5143FC0012B53C /* GeoLocaleUITests.swift */; };
+		85C209991D5163660012B53C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C209981D5163660012B53C /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6036EE8D1D5F54CF00E127E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		60E248D01D53C49E0083E8E8 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		60E248D21D53C49E0083E8E8 /* LocationSearchTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationSearchTable.swift; sourceTree = "<group>"; };
 		85C209671D5143FC0012B53C /* GeoLocale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoLocale.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85C2096A1D5143FC0012B53C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		85C2096C1D5143FC0012B53C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		85C2096F1D5143FC0012B53C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		85C209711D5143FC0012B53C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85C209741D5143FC0012B53C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85C209761D5143FC0012B53C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		85C209861D5143FC0012B53C /* GeoLocaleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoLocaleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85C2098A1D5143FC0012B53C /* GeoLocaleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoLocaleUITests.swift; sourceTree = "<group>"; };
 		85C2098C1D5143FC0012B53C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85C209981D5163660012B53C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85C209991D5163660012B53C /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +82,7 @@
 		85C2095E1D5143FC0012B53C = {
 			isa = PBXGroup;
 			children = (
+				85C209981D5163660012B53C /* MapKit.framework */,
 				85C209691D5143FC0012B53C /* GeoLocale */,
 				85C2097E1D5143FC0012B53C /* GeoLocaleTests */,
 				85C209891D5143FC0012B53C /* GeoLocaleUITests */,
@@ -98,8 +104,9 @@
 			isa = PBXGroup;
 			children = (
 				85C2096A1D5143FC0012B53C /* AppDelegate.swift */,
-				85C2096C1D5143FC0012B53C /* ViewController.swift */,
-				85C2096E1D5143FC0012B53C /* Main.storyboard */,
+				60E248D01D53C49E0083E8E8 /* ViewController.swift */,
+				6036EE8E1D5F54CF00E127E0 /* Main.storyboard */,
+				60E248D21D53C49E0083E8E8 /* LocationSearchTable.swift */,
 				85C209711D5143FC0012B53C /* Assets.xcassets */,
 				85C209731D5143FC0012B53C /* LaunchScreen.storyboard */,
 				85C209761D5143FC0012B53C /* Info.plist */,
@@ -187,6 +194,7 @@
 		85C2095F1D5143FC0012B53C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0730;
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = TMCD;
@@ -194,6 +202,11 @@
 					85C209661D5143FC0012B53C = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = J5EEV8595M;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					85C2097A1D5143FC0012B53C = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -232,9 +245,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6036EE8C1D5F54CF00E127E0 /* Main.storyboard in Resources */,
 				85C209751D5143FC0012B53C /* LaunchScreen.storyboard in Resources */,
 				85C209721D5143FC0012B53C /* Assets.xcassets in Resources */,
-				85C209701D5143FC0012B53C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +272,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85C2096D1D5143FC0012B53C /* ViewController.swift in Sources */,
+				60E248D51D53C49E0083E8E8 /* LocationSearchTable.swift in Sources */,
+				60E248D31D53C49E0083E8E8 /* ViewController.swift in Sources */,
 				85C2096B1D5143FC0012B53C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,10 +310,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		85C2096E1D5143FC0012B53C /* Main.storyboard */ = {
+		6036EE8E1D5F54CF00E127E0 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				85C2096F1D5143FC0012B53C /* Base */,
+				6036EE8D1D5F54CF00E127E0 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -485,6 +499,7 @@
 				85C209911D5143FC0012B53C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		85C209921D5143FC0012B53C /* Build configuration list for PBXNativeTarget "GeoLocaleTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +508,7 @@
 				85C209941D5143FC0012B53C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		85C209951D5143FC0012B53C /* Build configuration list for PBXNativeTarget "GeoLocaleUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +517,7 @@
 				85C209971D5143FC0012B53C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
